@@ -27,4 +27,5 @@ console.log(newDate.getDay()+1)
 
 console.log(newDate.toLocaleString('default',{
     weekday:"long",
+    
 }))
