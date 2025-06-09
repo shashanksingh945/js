@@ -1,26 +1,27 @@
-let score="33abc"
+"use strict"; //treate all JS code as newer versior\\
 
-console.log(typeof score);
-console.log(typeof (score));
+//alert(3+3)  //we r using m=node.js not browser
 
-let valueInNumber=Number(score)
-console.log(typeof valueInNumber);
-console.log(valueInNumber);
+console.log(3+3)
 
-// "33"=> 33
-//"33abc"=> NaN(not a no) but type is number
-// true=> 1; false=>0
+console.log("Shashank")
 
-let isLoggedIn=1
+let name="Shashank"
+let age=21
+let isLoggedIn=false
 
-let booleanIsLoggedIn=Boolean(isLoggedIn)
-console.log(booleanIsLoggedIn)
+// DATA TYPES
+//number=>2 to power 53
+//bigint
+//string=>" "
+//boolean=> true/false
+//null=>standalone value
+//undefine=>
+//symbole =>unique
 
-//1=> true ; 0=> false
-//" " =>false ; "something"=>true
-
-
-let someNumber=33
-
-let stringNumber=String(someNumber)
-console.log(stringNumber);
+//object
+console.log(typeof isLoggedIn)
+console.log(typeof name);
+console.log(typeof null);  //object
+console.log(typeof none);   //none
+console.log(typeof undefined);   //undefine
